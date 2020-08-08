@@ -2,31 +2,35 @@
 
 ### Table of Contents
 - [Description](#description)
-- [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributors](#contributors)
-- [Test](#test)
+- [Preview](#preview)
 - [Questions](#questions)
 
 ## Description
 
+  This web application allows the user to log their workout routine by adding exercises or update their previous exercises, with visualization of their routines through the use of charts and graphs. 
 
-## Installation
+  Technologies Used : 
+
+  * HTML
+  * CSS
+  * JS
+  * MongoDB
+  * Mongoose
+  * NodeJS
 
 
 ## Usage
 
-
 ## License
 
+MIT License 
 
-## Contributors
-
-
-## Test
-
+## Preview
+![Preview](./public/preview.gif)
 
 ## Questions
-GitHub: [${userName}](${url})
-Deployed Site: [here](${site})
+GitHub: [Here](https://github.com/eddyangang/workoutplanner)
+
+Deployed Site: [here](https://immense-coast-36647.herokuapp.com/?id=5f2e28200eabc800170065d0)
