@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 require("./seeders/seed")
 
-mongoose.connect("mongodb://localhost/workout", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
