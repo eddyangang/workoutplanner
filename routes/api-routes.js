@@ -1,16 +1,16 @@
 const Workout = require("../models/workout.js");
 
 module.exports = function (app) {
-    // gets last workout
-    console.log("Getting last workout");
+
     app.get("/api/workouts", (req, res) => {
-        Workout.findOne().sort({
-            created_at: 1
-        }).then((err, data) => {
-            if (err) throw err;
+        console.log("Getting last workout");
+        
+        Workout.find({}).exec(function (err, data) {
+            if (err) throw err
             console.log("sending data: ", data);
-            res.json(data);
-        })
+            res.json(data)
+        });
+
     })
 
 
